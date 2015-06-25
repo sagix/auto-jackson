@@ -1,0 +1,52 @@
+{
+  "simple" :{
+    "id": 1337,
+    "title": "test auto parcel and jackson"
+  },
+  "complex":{
+    "id": 42,
+    "title": "complex date",
+    "description": "with many field",
+    "tag": "builder",
+    "image": null
+  },
+  "simple-list":[
+    {
+      "id": 1,
+      "type": "square"
+    },
+    {
+      "id": 2,
+      "type": "circle"
+    },
+    {
+      "id": 3,
+      "type": "triangle"
+    },
+    {
+      "id": 4,
+      "type": "square"
+    }
+  ],
+  "complex-typed-list":[
+    {
+      "type": "twitter",
+      "tweet": "use AutoParcel and Jackson",
+      "author": "_sagix"
+    },
+    {
+      "type": "facebook",
+      "post": "I will be so famous",
+      "comments": 438,
+      "likes": 8537
+    },
+    {
+      "type": "unknow"
+    },
+    {
+      "type": "twitter",
+      "tweet": "use AutoParcel and Jackson with proguard on",
+      "author": "_sagix"
+    }
+  ]
+}
