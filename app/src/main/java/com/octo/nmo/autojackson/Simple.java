@@ -1,12 +1,14 @@
 package com.octo.nmo.autojackson;
 
+import android.os.Parcelable;
+
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import auto.parcel.AutoParcel;
 
 @AutoParcel
-abstract class Simple {
+abstract class Simple implements Parcelable{
     @JsonCreator
     static Simple newInstance(
             @JsonProperty("id") final int id,
